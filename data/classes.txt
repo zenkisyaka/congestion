@@ -1,0 +1,11 @@
+person
+car
+bicycle
+bus
+truck
+a
+i
+u
+e
+o
+ka
