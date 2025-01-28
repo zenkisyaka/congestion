@@ -6,12 +6,12 @@ epochs: 50
 time: null
 patience: 100
 batch: 16
-imgsz: 640
+imgsz: 320
 save: true
 save_period: -1
 cache: false
 device: null
-workers: 8
+workers: 4
 project: null
 name: train7
 exist_ok: false

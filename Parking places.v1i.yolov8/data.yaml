@@ -1,5 +1,13 @@
-train: /Users/chinenyoshinori/congestion-1/Parking places.v1i.yolov8/train/images
-val: /Users/chinenyoshinori/congestion-1/Parking places.v1i.yolov8/val/images
+train: ../train/images
+val: ../val/images
+test: ../test/images
 
-nc: 2  # クラス数（例: 駐車場の空き/埋まりなどに応じて設定）
-names: ['empty', 'occupied']  # クラス名（適宜変更してください）
+nc: 2
+names: ['busy', 'free']
+
+roboflow:
+  workspace: morikawa-l96bi
+  project: parking-places-yaul1-fzfcf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/morikawa-l96bi/parking-places-yaul1-fzfcf/dataset/1
