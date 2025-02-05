@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> zenki3
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
 from ultralytics import YOLO
 
 # YOLOモデルをロード
+<<<<<<< HEAD
 model = YOLO("/Users/chinenyoshinori/congestion-1/runs/detect/train16/weights/best.pt")  # モデルを指定
 
 # 推論画像のパス
 image_path = "/Users/chinenyoshinori/congestion-1/data/images/LINE_ALBUM_YoLo用画像_250205_3.jpg"
+=======
+model = YOLO("/Users/chinenyoshinori/congestion-1/runs/detect/train6/weights/best.pt")  # モデルを指定
+
+# 推論画像のパス
+image_path = "/Users/chinenyoshinori/congestion-1/data/images/image_7.jpg"
+
+# 推論を実行
+>>>>>>> zenki3
 results = model(image_path)
 
 
@@ -50,7 +62,11 @@ def plot_probability_map(image_path, bboxes, scores, classes, target_class):
     plt.show()
 
 # ターゲットクラスを指定 (例: 0 = person)
+<<<<<<< HEAD
 target_class = 2
+=======
+target_class = 0
+>>>>>>> zenki3
 plot_probability_map(image_path, bboxes, scores, classes, target_class)
 
 import os
@@ -75,6 +91,7 @@ def count_images_in_folder(folder_path):
 
     return image_count
 
+<<<<<<< HEAD
 import os
 from PIL import Image
 
@@ -440,3 +457,5 @@ model.train(
     device="cuda"
 )
 
+=======
+>>>>>>> zenki3

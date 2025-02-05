@@ -1,7 +1,11 @@
 task: detect
 mode: train
 model: yolov8m.pt
+<<<<<<< HEAD:runs/detect/train13/args.yaml
 data: dataset2/data.yaml
+=======
+data: /Users/chinenyoshinori/congestion-1/dataset2/data.yaml
+>>>>>>> zenki3:runs/detect/train10/args.yaml
 epochs: 50
 time: null
 patience: 100

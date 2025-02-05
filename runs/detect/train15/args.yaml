@@ -5,6 +5,7 @@ data: dataset2/data.yaml
 epochs: 50
 time: null
 patience: 100
+<<<<<<< HEAD:runs/detect/train15/args.yaml
 batch: 8
 imgsz: 640
 save: true
@@ -12,6 +13,15 @@ save_period: -1
 cache: false
 device: cpu
 workers: 8
+=======
+batch: 16
+imgsz: 320
+save: true
+save_period: -1
+cache: false
+device: null
+workers: 4
+>>>>>>> zenki3:runs/detect/train7/args.yaml
 project: null
 name: train15
 exist_ok: false
