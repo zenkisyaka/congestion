@@ -1,6 +1,6 @@
 train: /Users/chinenyoshinori/congestion-1/dataset2/train/images
 val:  /Users/chinenyoshinori/congestion-1/dataset2/val/images
-nc: ３  # クラスの数（COCOは80クラス）
+nc: 3  # クラスの数（COCOは80クラス）
 names:
   [
     "person", "bicycle", "car"
